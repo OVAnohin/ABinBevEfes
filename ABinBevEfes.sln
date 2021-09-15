@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P12318_CodeC", "P12318_CodeC\P12318_CodeC.csproj", "{012E08C7-5D12-4937-90BA-5D5B40736F94}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetWeekDays", "GetWeekDays\GetWeekDays.csproj", "{E52210E3-83DF-4A6A-840A-B727018E11FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{012E08C7-5D12-4937-90BA-5D5B40736F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{012E08C7-5D12-4937-90BA-5D5B40736F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{012E08C7-5D12-4937-90BA-5D5B40736F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{012E08C7-5D12-4937-90BA-5D5B40736F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E52210E3-83DF-4A6A-840A-B727018E11FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E52210E3-83DF-4A6A-840A-B727018E11FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E52210E3-83DF-4A6A-840A-B727018E11FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E52210E3-83DF-4A6A-840A-B727018E11FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

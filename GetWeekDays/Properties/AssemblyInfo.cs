@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("P12318_CodeC")]
+[assembly: AssemblyTitle("GetWeekDays")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("P12318_CodeC")]
+[assembly: AssemblyProduct("GetWeekDays")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("012e08c7-5d12-4937-90ba-5d5b40736f94")]
+[assembly: Guid("e52210e3-83df-4a6a-840a-b727018e11fd")]
 
 // Version information for an assembly consists of the following four values:
 //

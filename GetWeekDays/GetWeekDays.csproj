@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{012E08C7-5D12-4937-90BA-5D5B40736F94}</ProjectGuid>
+    <ProjectGuid>{E52210E3-83DF-4A6A-840A-B727018E11FD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>P12318_CodeC</RootNamespace>
-    <AssemblyName>P12318_CodeC</AssemblyName>
+    <RootNamespace>GetWeekDays</RootNamespace>
+    <AssemblyName>GetWeekDays</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
