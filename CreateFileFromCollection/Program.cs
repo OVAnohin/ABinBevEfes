@@ -4,6 +4,7 @@ using System.Data;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace CreateFileFromCollection
@@ -39,6 +40,7 @@ namespace CreateFileFromCollection
                 writer.WriteLine(dataTable.Rows[i][columnName].ToString());
 
             writer.Close();
+            Thread.Sleep(1000);
             //*********************************************
             Console.ReadKey();
         }
