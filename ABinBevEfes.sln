@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetWeekDays", "GetWeekDays\GetWeekDays.csproj", "{E52210E3-83DF-4A6A-840A-B727018E11FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateFileFromCollection", "CreateFileFromCollection\CreateFileFromCollection.csproj", "{09FCFFBE-D6B9-46EE-8426-4272540993ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E52210E3-83DF-4A6A-840A-B727018E11FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E52210E3-83DF-4A6A-840A-B727018E11FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E52210E3-83DF-4A6A-840A-B727018E11FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09FCFFBE-D6B9-46EE-8426-4272540993ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09FCFFBE-D6B9-46EE-8426-4272540993ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09FCFFBE-D6B9-46EE-8426-4272540993ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09FCFFBE-D6B9-46EE-8426-4272540993ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
