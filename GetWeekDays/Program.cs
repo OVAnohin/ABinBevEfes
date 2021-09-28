@@ -10,6 +10,12 @@ namespace GetWeekDays
     {
         static void Main(string[] args)
         {
+			string windowName = "Лист в ALVXXL01 (1) - Excel";
+			string excelStr = " - Excel";
+			int res1 = windowName.IndexOf(excelStr, 1);
+			string result = windowName.Substring(0, res1);
+            Console.WriteLine("->{0}<-", result);
+
 			DateTime lastSunday = new DateTime();
 			DateTime lastMonday = new DateTime();
 			DateTime startDate = DateTime.Now;

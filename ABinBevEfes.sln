@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetWeekDays", "GetWeekDays\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateFileFromCollection", "CreateFileFromCollection\CreateFileFromCollection.csproj", "{09FCFFBE-D6B9-46EE-8426-4272540993ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoinsDataTable", "JoinsDataTable\JoinsDataTable.csproj", "{217BFF4E-46F0-4D4B-A71F-EC16857604A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{09FCFFBE-D6B9-46EE-8426-4272540993ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09FCFFBE-D6B9-46EE-8426-4272540993ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09FCFFBE-D6B9-46EE-8426-4272540993ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{217BFF4E-46F0-4D4B-A71F-EC16857604A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217BFF4E-46F0-4D4B-A71F-EC16857604A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217BFF4E-46F0-4D4B-A71F-EC16857604A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217BFF4E-46F0-4D4B-A71F-EC16857604A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
