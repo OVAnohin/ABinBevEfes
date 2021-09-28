@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31624.102
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1622
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetWeekDays", "GetWeekDays\GetWeekDays.csproj", "{E52210E3-83DF-4A6A-840A-B727018E11FD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateFileFromCollection", "CreateFileFromCollection\CreateFileFromCollection.csproj", "{09FCFFBE-D6B9-46EE-8426-4272540993ED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoinsDataTable", "JoinsDataTable\JoinsDataTable.csproj", "{217BFF4E-46F0-4D4B-A71F-EC16857604A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateWord", "CreateWord\CreateWord.csproj", "{DC57390F-F901-4CF2-AFF2-8EE17EF6274E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{217BFF4E-46F0-4D4B-A71F-EC16857604A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{217BFF4E-46F0-4D4B-A71F-EC16857604A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{217BFF4E-46F0-4D4B-A71F-EC16857604A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC57390F-F901-4CF2-AFF2-8EE17EF6274E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC57390F-F901-4CF2-AFF2-8EE17EF6274E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC57390F-F901-4CF2-AFF2-8EE17EF6274E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC57390F-F901-4CF2-AFF2-8EE17EF6274E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
