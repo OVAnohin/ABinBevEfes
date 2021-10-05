@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoinsDataTable", "JoinsData
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateWord", "CreateWord\CreateWord.csproj", "{DC57390F-F901-4CF2-AFF2-8EE17EF6274E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateAnswerTabel", "CreateAnswerTabel\CreateAnswerTabel.csproj", "{729966A4-3966-477E-9E75-F3F5FEFB3A1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateAnswerTable", "CreateAnswerTabel\CreateAnswerTable.csproj", "{729966A4-3966-477E-9E75-F3F5FEFB3A1E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadExcelSheetIntoDataTable", "ReadExcelSheetIntoDataTable\ReadExcelSheetIntoDataTable.csproj", "{54C3051C-E2C6-44D7-9AE7-0ACF053AB3AE}"
 EndProject

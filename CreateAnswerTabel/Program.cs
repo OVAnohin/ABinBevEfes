@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Excel = Microsoft.Office.Interop.Excel;
 
-namespace CreateAnswerTabel
+namespace CreateAnswerTable
 {
     class Program
     {
