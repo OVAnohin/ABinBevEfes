@@ -27,6 +27,14 @@ namespace CreateFileFromCollection
                 dataTable.Rows.Add(newRow);
             }
             ShowTable(dataTable);
+            DataTable newTable = dataTable.Clone();
+
+            newTable.Columns.Add("2Place", Type.GetType("System.String")).SetOrdinal(1);
+            for (int i = 0; i < dataTable.Rows.Count; i++)
+                newTable.ImportRow(dataTable.Rows[i]);
+
+            ShowTable(newTable);
+            Console.ReadKey();
             //*********************************************
 
             string fileName = "Text.txt";

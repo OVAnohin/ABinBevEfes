@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.OleDb;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using Excel = Microsoft.Office.Interop.Excel;
 
@@ -27,7 +29,7 @@ namespace CreateAnswerTable
         [STAThread]
         static void Main(string[] args)
         {
-            string fullFileName = @"d:\Work\ContractualCost.xlsb";
+            string fullFileName = @"d:\Time\NEWСONTRACTS.xlsb";
             object oMissing = System.Reflection.Missing.Value;
 
             Excel.Application excelApp = new Excel.Application();
@@ -64,6 +66,20 @@ namespace CreateAnswerTable
             {
                 Console.WriteLine(dataFromExcel.Columns[i].ColumnName + "<-");
             }
+
+            string fileName = "Text.txt";
+            string localFolder = @"d:\Time";
+            fullFileName = localFolder + @"\" + fileName;
+
+            var file = new FileInfo(fullFileName);
+            StreamWriter writer = file.CreateText();
+            for (int i = 0; i < dataFromExcel.Columns.Count; i++)
+            {
+                writer.WriteLine(dataFromExcel.Columns[i].ColumnName + "<-");
+            }
+
+            writer.Close();
+            Thread.Sleep(1000);
 
             //ShowTable(dataFromExcel);
 
