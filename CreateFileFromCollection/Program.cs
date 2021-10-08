@@ -44,8 +44,12 @@ namespace CreateFileFromCollection
 
             var file = new FileInfo(fullFileName);
             StreamWriter writer = file.CreateText();
+            if (dataTable.Rows.Count == 0)
+                writer.WriteLine("000000");
+
             for (int i = 0; i < dataTable.Rows.Count; i++)
                 writer.WriteLine(dataTable.Rows[i][columnName].ToString());
+
 
             writer.Close();
             Thread.Sleep(1000);
