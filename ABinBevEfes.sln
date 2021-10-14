@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1622
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetWeekDays", "GetWeekDays\GetWeekDays.csproj", "{E52210E3-83DF-4A6A-840A-B727018E11FD}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateAnswerTable", "CreateAnswerTabel\CreateAnswerTable.csproj", "{729966A4-3966-477E-9E75-F3F5FEFB3A1E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadExcelSheetIntoDataTable", "ReadExcelSheetIntoDataTable\ReadExcelSheetIntoDataTable.csproj", "{54C3051C-E2C6-44D7-9AE7-0ACF053AB3AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIAutomationSaveAs", "UIAutomationSaveAs\UIAutomationSaveAs.csproj", "{FA9E61F7-C2D1-49C6-892C-0AA985BE4691}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{54C3051C-E2C6-44D7-9AE7-0ACF053AB3AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54C3051C-E2C6-44D7-9AE7-0ACF053AB3AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54C3051C-E2C6-44D7-9AE7-0ACF053AB3AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA9E61F7-C2D1-49C6-892C-0AA985BE4691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA9E61F7-C2D1-49C6-892C-0AA985BE4691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA9E61F7-C2D1-49C6-892C-0AA985BE4691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA9E61F7-C2D1-49C6-892C-0AA985BE4691}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
