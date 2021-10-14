@@ -29,7 +29,7 @@ namespace CreateAnswerTable
         [STAThread]
         static void Main(string[] args)
         {
-            string fullFileName = @"d:\Time\NEWСONTRACTS.xlsb";
+            string fullFileName = @"d:\Time\ContractualCost.xlsb";
             object oMissing = System.Reflection.Missing.Value;
 
             Excel.Application excelApp = new Excel.Application();
@@ -46,6 +46,7 @@ namespace CreateAnswerTable
             excelAppProcess.Kill();
 
             DataTable dataFromExcel = new DataTable(sheetName);
+            dataFromExcel.Columns.Add("СсылкаПлат", Type.GetType("System.String"));
 
             using (OleDbConnection oleDbConnection = new OleDbConnection())
 
@@ -53,7 +54,7 @@ namespace CreateAnswerTable
                 oleDbConnection.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + fullFileName + ";" + "Extended Properties='Excel 12.0 Xml;HDR=YES;'";
                 using (OleDbCommand oleDbCommand = new OleDbCommand())
                 {
-                    oleDbCommand.CommandText = "Select * from [" + sheetName + "$]";
+                    oleDbCommand.CommandText = "Select `СсылкаПлат` from [" + sheetName + "$]";
                     oleDbCommand.Connection = oleDbConnection;
                     OleDbDataAdapter adapter = new OleDbDataAdapter(oleDbCommand.CommandText, oleDbCommand.Connection);
                     adapter.Fill(dataFromExcel);
