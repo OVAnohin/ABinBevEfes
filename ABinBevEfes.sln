@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadExcelSheetIntoDataTable
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIAutomationSaveAs", "UIAutomationSaveAs\UIAutomationSaveAs.csproj", "{FA9E61F7-C2D1-49C6-892C-0AA985BE4691}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeakClass", "WeakClass\WeakClass.csproj", "{71A01D52-D840-49D3-81CB-E565F63FDFAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{FA9E61F7-C2D1-49C6-892C-0AA985BE4691}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA9E61F7-C2D1-49C6-892C-0AA985BE4691}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA9E61F7-C2D1-49C6-892C-0AA985BE4691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71A01D52-D840-49D3-81CB-E565F63FDFAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71A01D52-D840-49D3-81CB-E565F63FDFAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71A01D52-D840-49D3-81CB-E565F63FDFAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71A01D52-D840-49D3-81CB-E565F63FDFAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
